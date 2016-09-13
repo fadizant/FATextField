@@ -1,0 +1,6 @@
+framework module FATextField {
+  umbrella header "FATextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

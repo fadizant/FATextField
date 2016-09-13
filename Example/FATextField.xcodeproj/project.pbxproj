@@ -23,6 +23,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A5F2F2765BC2708C57DBA252 /* Pods_FATextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CC187F899CB65324D6B3DF /* Pods_FATextField_Tests.framework */; };
 		DCD3EB63604476F44E445F9E /* Pods_FATextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EAE0B1C2317AACCC161EC0 /* Pods_FATextField_Example.framework */; };
+		E581BD82E6C381E59FE6C1AD /* Pods_FATextField_Example_FATextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20F50AAABA78C469B18A05D /* Pods_FATextField_Example_FATextField_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7A5009394D77A6089B5B461B /* Pods-FATextField_Example-FATextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATextField_Example-FATextField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FATextField_Example-FATextField_Tests/Pods-FATextField_Example-FATextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		872DDB88B9351065AAE15245 /* Pods-FATextField_Example-FATextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATextField_Example-FATextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FATextField_Example-FATextField_Tests/Pods-FATextField_Example-FATextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B9AEB8773FC4F9B6CD6D6F47 /* Pods-FATextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FATextField_Tests/Pods-FATextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C20F50AAABA78C469B18A05D /* Pods_FATextField_Example_FATextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FATextField_Example_FATextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56885E279591AB7D8BBA0A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D85344A1B30CA9D8815557AA /* Pods-FATextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FATextField_Example/Pods-FATextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E448E4770501FE12A3AA1F45 /* FATextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FATextField.podspec; path = ../FATextField.podspec; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				A5F2F2765BC2708C57DBA252 /* Pods_FATextField_Tests.framework in Frameworks */,
+				E581BD82E6C381E59FE6C1AD /* Pods_FATextField_Example_FATextField_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +128,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				13EAE0B1C2317AACCC161EC0 /* Pods_FATextField_Example.framework */,
 				24CC187F899CB65324D6B3DF /* Pods_FATextField_Tests.framework */,
+				C20F50AAABA78C469B18A05D /* Pods_FATextField_Example_FATextField_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,6 +195,8 @@
 				D85344A1B30CA9D8815557AA /* Pods-FATextField_Example.release.xcconfig */,
 				B9AEB8773FC4F9B6CD6D6F47 /* Pods-FATextField_Tests.debug.xcconfig */,
 				1672081D1B53F4012640379E /* Pods-FATextField_Tests.release.xcconfig */,
+				872DDB88B9351065AAE15245 /* Pods-FATextField_Example-FATextField_Tests.debug.xcconfig */,
+				7A5009394D77A6089B5B461B /* Pods-FATextField_Example-FATextField_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -320,7 +328,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FATextField_Tests/Pods-FATextField_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FATextField_Example-FATextField_Tests/Pods-FATextField_Example-FATextField_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2036DF71F8EA7758F776B673 /* [CP] Check Pods Manifest.lock */ = {
@@ -365,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FATextField_Tests/Pods-FATextField_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FATextField_Example-FATextField_Tests/Pods-FATextField_Example-FATextField_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2F15291683E9D4E6298EEE7 /* [CP] Embed Pods Frameworks */ = {
@@ -541,7 +549,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9AEB8773FC4F9B6CD6D6F47 /* Pods-FATextField_Tests.debug.xcconfig */;
+			baseConfigurationReference = 872DDB88B9351065AAE15245 /* Pods-FATextField_Example-FATextField_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +573,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1672081D1B53F4012640379E /* Pods-FATextField_Tests.release.xcconfig */;
+			baseConfigurationReference = 7A5009394D77A6089B5B461B /* Pods-FATextField_Example-FATextField_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

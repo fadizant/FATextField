@@ -1,0 +1,6 @@
+framework module Pods_FATextField_Example_FATextField_Tests {
+  umbrella header "Pods-FATextField_Example-FATextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

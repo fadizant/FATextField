@@ -1,0 +1,16 @@
+PODS:
+  - FATextField (0.1.0)
+
+DEPENDENCIES:
+  - FATextField (from `../`)
+
+EXTERNAL SOURCES:
+  FATextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FATextField: 68b6d1b6d65623620332fcb47d1a8bdb220aad22
+
+PODFILE CHECKSUM: 372c05d9fae1b76aac0f3ee5c91be19be60ffd83
+
+COCOAPODS: 1.0.1
