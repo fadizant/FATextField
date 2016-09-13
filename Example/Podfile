@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FATextField_Example' do
+  pod 'FATextField', :path => '../'
+
+  target 'FATextField_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
