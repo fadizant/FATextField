@@ -38,12 +38,6 @@ IB_DESIGNABLE
  */
 @property (nonatomic, strong) UIFont *floatLabelFont UI_APPEARANCE_SELECTOR;
 /**
- * Allow view to move with keyboard
- *
- * Defaults false
- */
-@property (nonatomic) IBInspectable BOOL moveWithKeyboard;
-/**
  * The inactive color for the floatLabel. 
  *
  * Defaults to @c lightGrayColor.

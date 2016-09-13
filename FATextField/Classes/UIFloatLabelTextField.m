@@ -348,9 +348,7 @@
     
     [super setPlaceholderText];
     
-    if (!_moveWithKeyboard) {
-        [super removeMoving];
-    }
+
 
 }
 

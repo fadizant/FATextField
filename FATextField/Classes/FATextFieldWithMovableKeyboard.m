@@ -87,12 +87,27 @@
     [super layoutSubviews];
     [self layoutIfNeeded];
     
-    self.layer.borderColor = [_borderColor CGColor];
-    self.layer.borderWidth = _borderWidth;
-    //circle Image
-    [self.layer setCornerRadius:_borderCorner];
-    [self.layer setMasksToBounds:YES];
+    if (!_moveWithKeyboard) {
+        [self removeMoving];
+    }
     
+    if (!bottomBorder && _isBottomBorder) {
+        self.borderStyle = UITextBorderStyleNone;
+        bottomBorder = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height-1, self.frame.size.width, 1)];
+        bottomBorder.backgroundColor = self.isEditing ? _borderEditingColor : self.selected ? _borderSelectedColor : _borderColor;
+        [self addSubview:bottomBorder];
+    } else if (_isBottomBorder)
+    {
+        bottomBorder.backgroundColor = self.isEditing ? _borderEditingColor : self.selected ? _borderSelectedColor : _borderColor;
+    }
+    else
+    {
+        self.layer.borderColor = self.isEditing ? [_borderEditingColor CGColor] : self.selected ? [_borderSelectedColor CGColor] : [_borderColor CGColor];
+        self.layer.borderWidth = _borderWidth;
+        //circle Image
+        [self.layer setCornerRadius:_borderCorner];
+        [self.layer setMasksToBounds:YES];
+    }
 }
 
 //Handle keyboard

@@ -11,6 +11,9 @@
 IB_DESIGNABLE
 
 @interface FATextFieldWithMovableKeyboard : UITextField<UITextFieldDelegate>
+{
+    UIView *bottomBorder;
+}
 
 @property (nonatomic) IBInspectable BOOL toolBar;
 @property (nonatomic) IBInspectable BOOL toolBarNextPre;
@@ -19,11 +22,21 @@ IB_DESIGNABLE
 @property (nonatomic,retain) IBInspectable UIColor *placeholderColor;
 -(void)setPlaceholderText;
 
+@property (nonatomic) IBInspectable BOOL isBottomBorder;
+
 #pragma mark UI Property
 /**
  * Border Color
  */
 @property (nonatomic,retain) IBInspectable UIColor *borderColor;
+/**
+ * Selected Border Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *borderSelectedColor;
+/**
+ * Highlighted Border Color
+ */
+@property (nonatomic,retain) IBInspectable UIColor *borderEditingColor;
 /**
  * Border Width
  */
@@ -32,6 +45,12 @@ IB_DESIGNABLE
  * Corner
  */
 @property (nonatomic) IBInspectable CGFloat borderCorner;
+/**
+ * Allow view to move with keyboard
+ *
+ * Defaults false
+ */
+@property (nonatomic) IBInspectable BOOL moveWithKeyboard;
 
 @property (nonatomic) CGRect initFrame;
 @property (strong,nonatomic) UITapGestureRecognizer *tap ;
