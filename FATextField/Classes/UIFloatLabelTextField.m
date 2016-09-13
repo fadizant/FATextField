@@ -348,11 +348,10 @@
     
     [super setPlaceholderText];
     
-    //circle
-//    [self.layer setCornerRadius:self.corner ? self.corner : [self frame].size.height / 2.0];
-//    [self.layer setMasksToBounds:YES];
-//    
-//    self.backgroundColor = [UIColor colorWithRed:0.961 green:0.961 blue:0.961 alpha:1.00];
+    if (!_moveWithKeyboard) {
+        [super removeMoving];
+    }
+
 }
 
 #pragma mark - UIResponder (Override)

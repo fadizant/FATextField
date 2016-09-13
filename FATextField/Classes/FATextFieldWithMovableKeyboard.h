@@ -37,4 +37,6 @@ IB_DESIGNABLE
 @property (strong,nonatomic) UITapGestureRecognizer *tap ;
 -(void)hideKeyboard;
 - (void)keyboardWasShownHide:(NSNotification *)notification;
+
+-(void)removeMoving;
 @end
