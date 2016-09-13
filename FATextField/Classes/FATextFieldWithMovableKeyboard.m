@@ -7,6 +7,7 @@
 //
 
 #import "FATextFieldWithMovableKeyboard.h"
+#import "podImage.h"
 
 @implementation FATextFieldWithMovableKeyboard
 @synthesize tap;
@@ -227,10 +228,12 @@ frame.size.height +=  keyboardSize.height;
                 }
             }
             
-            nextBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nextTextField"] style:UIBarButtonItemStylePlain target:self action:@selector(yourTextViewNextButtonPressed)];
+            
+            
+            nextBarButton = [[UIBarButtonItem alloc] initWithImage:[podImage imageNamedFromPodResources:@"nextTextField"] style:UIBarButtonItemStylePlain target:self action:@selector(yourTextViewNextButtonPressed)];
             nextBarButton.enabled = hasNext;
             
-            preBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"preTextField"] style:UIBarButtonItemStylePlain target:self action:@selector(yourTextViewPreButtonPressed)];
+            preBarButton = [[UIBarButtonItem alloc] initWithImage:[podImage imageNamedFromPodResources:@"preTextField"] style:UIBarButtonItemStylePlain target:self action:@selector(yourTextViewPreButtonPressed)];
             preBarButton.enabled = hasPre;
         }
 

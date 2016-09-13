@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B27D9B5A0D22A63BE31F85079D5427 /* FAAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307AA63005F65F9677586CAF61E4C0B0 /* FAAssests.xcassets */; };
-		30B174942B25B833483B52E05A2639B1 /* UIFloatLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F0A02DC57608A076AAF98E12340816 /* UIFloatLabelTextField.m */; };
+		0DE0DE211D884BAE004576D2 /* podImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE0DE1F1D884BAE004576D2 /* podImage.h */; };
+		0DE0DE221D884BAE004576D2 /* podImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0DE201D884BAE004576D2 /* podImage.m */; };
+		10651469691320508B0BEF317FEAC356 /* FATextFieldWithMovableKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D47BD93150C45E066DF41E2F9EB04C /* FATextFieldWithMovableKeyboard.m */; };
 		30D3D334D8880F05DD453C5B1C738654 /* Pods-FATextField_Example-FATextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8707A7937CEA53FD2063E57BA748776 /* Pods-FATextField_Example-FATextField_Tests-dummy.m */; };
-		429F719773C99A750A5F48256A627F09 /* FATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C043A7856C970AA89565D58430D24E /* FATextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C5B6BEA39CAB973D04DBBF5D1B898D1 /* UIFloatLabelTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DE506D106F21D4017CF6581F9B94ADE3 /* UIFloatLabelTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39FC986A2B84C81C6E2497FFF18E673C /* FATextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4630DFFFE81F528FE79455EF83E66A /* FATextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4669A94A626CA7AB6A952DC14DEB820B /* UIFloatLabelTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5219B810F81459948DA919EC777FFD38 /* UIFloatLabelTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA0113CE04AEE1D53F3FD7B7BFBF3DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		52EDB3697908BF37C9E91463CA14EE2E /* FATextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88229566BA7CF7B9CB6CEAD8EBFFA584 /* FATextField.bundle */; };
-		5FF7CBA91752AAF2F4C400CB88D4E32C /* FATextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB47FF87E76E2530C962FAA25BC4C48 /* FATextField-dummy.m */; };
-		6C222ADC2FF126E846A7AE347263B431 /* FATextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4630DFFFE81F528FE79455EF83E66A /* FATextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A337704B3931C522DE15C844AB48D1E /* FATextFieldWithMovableKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3DF5F78DA733B53E33CA3158B76765 /* FATextFieldWithMovableKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BBA85A32E322A73C100B6341D852502 /* UIFloatLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A61376535DDCC0AC9D2DA696A54761 /* UIFloatLabelTextField.m */; };
+		A2FEB0451AAE0016202E7A94191C6749 /* FATextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88229566BA7CF7B9CB6CEAD8EBFFA584 /* FATextField.bundle */; };
 		AAED4DF4427BF1B611510B8BDE37F2E8 /* Pods-FATextField_Example-FATextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EA95955669DD123C43DB1EDD4348FE /* Pods-FATextField_Example-FATextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0ABA91751941CCE8E7C5E77861720AE /* Pods-FATextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23726E7854C6BF697841DBA7F4A6D3EF /* Pods-FATextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D613D4ACED814331C988CAB9D875F9BA /* FATextFieldWithMovableKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD79AFE207B44BD03907B378E148588 /* FATextFieldWithMovableKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F8FF2AEA0F218D354CD2F6B006DCA9 /* FATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9478DF0AC7B81D11C0E7415375A236 /* FATextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7103AB10CCFD7A02783640FFBC3D4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D652F7B653A6D9BB4B98C71BEE39B2C2 /* FAAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307AA63005F65F9677586CAF61E4C0B0 /* FAAssests.xcassets */; };
+		F024A7A685664CBCCC2CD5A4AC680DE1 /* FATextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB47FF87E76E2530C962FAA25BC4C48 /* FATextField-dummy.m */; };
 		F7EEF5BBAA5E051636BCFC7AE32EECBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		F9818AF10EF889261C39561B81670328 /* Pods-FATextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE6BBAC18BDB4C0A976A107687D0E /* Pods-FATextField_Example-dummy.m */; };
-		FCF04EA10C3C80AC146356BD8EB2B6AF /* FATextFieldWithMovableKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC489234E0E4790ACC23E8AF6AD64 /* FATextFieldWithMovableKeyboard.m */; };
-		FE18D4B7F89B4A09DA2EFCB6B35DD3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,28 +32,30 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9C200F56E20571F58F4B6D98E3DBE88;
+			remoteGlobalIDString = E56D95CA8C9E9D296F78B13861C50BF4;
 			remoteInfo = FATextField;
 		};
-		EEE7D6A5BECC913F62A1DA256E17BEC3 /* PBXContainerItemProxy */ = {
+		C0CE1070660349E12D16E25C47648A0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 886065A2473EFFACB54F363356F47BCE;
+			remoteGlobalIDString = 7C12996A5ACF77DBF921EB684BD7249E;
 			remoteInfo = "FATextField-FATextField";
 		};
 		FD825759EEA0C22608EFC58126A96C2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9C200F56E20571F58F4B6D98E3DBE88;
+			remoteGlobalIDString = E56D95CA8C9E9D296F78B13861C50BF4;
 			remoteInfo = FATextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10C043A7856C970AA89565D58430D24E /* FATextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextField.h; sourceTree = "<group>"; };
+		0DE0DE1F1D884BAE004576D2 /* podImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = podImage.h; sourceTree = "<group>"; };
+		0DE0DE201D884BAE004576D2 /* podImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = podImage.m; sourceTree = "<group>"; };
 		13DD226C4526C3A189B2EAFDC588C44C /* Pods-FATextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FATextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E3DF5F78DA733B53E33CA3158B76765 /* FATextFieldWithMovableKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextFieldWithMovableKeyboard.h; sourceTree = "<group>"; };
 		212792DCBBA1DE2523318E94B4B405D4 /* Pods-FATextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FATextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		23726E7854C6BF697841DBA7F4A6D3EF /* Pods-FATextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FATextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		2917CEA61919AB626BD7534922482927 /* Pods-FATextField_Example-FATextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FATextField_Example-FATextField_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -60,19 +64,20 @@
 		3D9F409A2B52BD469AAF00F1E3F6C13D /* Pods-FATextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FATextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EA8D82A81B6D5736DD7DF51F6F331BF /* Pods-FATextField_Example-FATextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FATextField_Example-FATextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		454F5680BAF329E9D3A5C3A9AD95C130 /* Pods-FATextField_Example-FATextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FATextField_Example-FATextField_Tests.modulemap"; sourceTree = "<group>"; };
-		53F0A02DC57608A076AAF98E12340816 /* UIFloatLabelTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIFloatLabelTextField.m; sourceTree = "<group>"; };
+		5219B810F81459948DA919EC777FFD38 /* UIFloatLabelTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIFloatLabelTextField.h; sourceTree = "<group>"; };
 		62195101ADB0188A4380B30828408ACC /* Pods_FATextField_Example_FATextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FATextField_Example_FATextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D25DA220474BA090CD2E00B3A385AA /* Pods-FATextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FATextField_Example.modulemap"; sourceTree = "<group>"; };
+		66D47BD93150C45E066DF41E2F9EB04C /* FATextFieldWithMovableKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextFieldWithMovableKeyboard.m; sourceTree = "<group>"; };
 		685C1ACF3FD46F6C1458EF1B88BD2989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F9CE300EAE53A6C50343F8C83946CC3 /* Pods-FATextField_Example-FATextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FATextField_Example-FATextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7239D4717D6F9F4D163B723F4625FFB7 /* Pods_FATextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FATextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		765A6E66C90E9BA9B580242DAF20DF91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9478DF0AC7B81D11C0E7415375A236 /* FATextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextField.h; sourceTree = "<group>"; };
 		7E847B749B02B2CE3A3E7AE06C63C435 /* FATextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FATextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88229566BA7CF7B9CB6CEAD8EBFFA584 /* FATextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FATextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EA95955669DD123C43DB1EDD4348FE /* Pods-FATextField_Example-FATextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FATextField_Example-FATextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99CBFF38DD482C012F60A17C41C9DE1B /* Pods-FATextField_Example-FATextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FATextField_Example-FATextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9BD79AFE207B44BD03907B378E148588 /* FATextFieldWithMovableKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextFieldWithMovableKeyboard.h; sourceTree = "<group>"; };
 		9C93E4261CAB6C380B3FF1BB0F3793A4 /* FATextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FATextField-prefix.pch"; sourceTree = "<group>"; };
 		9D5DC35961B000EA1473CE5555FBA5CA /* FATextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FATextField.modulemap; sourceTree = "<group>"; };
 		9FB47FF87E76E2530C962FAA25BC4C48 /* FATextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FATextField-dummy.m"; sourceTree = "<group>"; };
@@ -81,14 +86,13 @@
 		B2AAE9762C1E055062541FE94D08B01D /* Pods-FATextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FATextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2EE51C32CD78C8878ADA3BED8D7974C /* Pods-FATextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FATextField_Example-resources.sh"; sourceTree = "<group>"; };
 		B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FATextField.xcconfig; sourceTree = "<group>"; };
-		BBFBC489234E0E4790ACC23E8AF6AD64 /* FATextFieldWithMovableKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextFieldWithMovableKeyboard.m; sourceTree = "<group>"; };
 		BFD5B64A44E761AE1D73815DBC0FB3C0 /* Pods-FATextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FATextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C8707A7937CEA53FD2063E57BA748776 /* Pods-FATextField_Example-FATextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FATextField_Example-FATextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D04AE6BBAC18BDB4C0A976A107687D0E /* Pods-FATextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FATextField_Example-dummy.m"; sourceTree = "<group>"; };
 		D3E7FC183553711CF4E9B188D1897FCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D661285C476249B6E0DF41FBE3597065 /* Pods-FATextField_Example-FATextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FATextField_Example-FATextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DE506D106F21D4017CF6581F9B94ADE3 /* UIFloatLabelTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIFloatLabelTextField.h; sourceTree = "<group>"; };
+		D6A61376535DDCC0AC9D2DA696A54761 /* UIFloatLabelTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIFloatLabelTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +104,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86789C52A61886DE6B10EC476D310C3D /* Frameworks */ = {
+		426D4A68C68873A790A594F4618EAF12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE18D4B7F89B4A09DA2EFCB6B35DD3AF /* Foundation.framework in Frameworks */,
+				C7103AB10CCFD7A02783640FFBC3D4AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +120,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2DA50EDDD1488D03BD13B1EB3D1E857 /* Frameworks */ = {
+		ADFDC0926ECF244811BBA0F5D4E8D1FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +133,7 @@
 		070CA9AF0B868809657AD75A18C9FFB4 /* FATextField */ = {
 			isa = PBXGroup;
 			children = (
-				4720F87DEBD984A32292391C21C799D2 /* FATextField */,
+				CA7D35A87B0A8E48D42EF753C3BD9BA4 /* FATextField */,
 				E3C3DA4DBB44A472A9285C25914617C9 /* Resources */,
 				70521E503A845ADBB7541D3CCE402203 /* Support Files */,
 			);
@@ -163,20 +167,26 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		2E079511C3DC0CF291FF1D832D1F7863 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D9478DF0AC7B81D11C0E7415375A236 /* FATextField.h */,
+				1E3DF5F78DA733B53E33CA3158B76765 /* FATextFieldWithMovableKeyboard.h */,
+				66D47BD93150C45E066DF41E2F9EB04C /* FATextFieldWithMovableKeyboard.m */,
+				5219B810F81459948DA919EC777FFD38 /* UIFloatLabelTextField.h */,
+				D6A61376535DDCC0AC9D2DA696A54761 /* UIFloatLabelTextField.m */,
+				0DE0DE1F1D884BAE004576D2 /* podImage.h */,
+				0DE0DE201D884BAE004576D2 /* podImage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		4720F87DEBD984A32292391C21C799D2 /* FATextField */ = {
-			isa = PBXGroup;
-			children = (
-				54171A774C03D6706609138D5A353051 /* Classes */,
-			);
-			path = FATextField;
 			sourceTree = "<group>";
 		};
 		5358875FA5CC6B81472320EA3D4CB54A /* Products */ = {
@@ -188,18 +198,6 @@
 				62195101ADB0188A4380B30828408ACC /* Pods_FATextField_Example_FATextField_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		54171A774C03D6706609138D5A353051 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				10C043A7856C970AA89565D58430D24E /* FATextField.h */,
-				9BD79AFE207B44BD03907B378E148588 /* FATextFieldWithMovableKeyboard.h */,
-				BBFBC489234E0E4790ACC23E8AF6AD64 /* FATextFieldWithMovableKeyboard.m */,
-				DE506D106F21D4017CF6581F9B94ADE3 /* UIFloatLabelTextField.h */,
-				53F0A02DC57608A076AAF98E12340816 /* UIFloatLabelTextField.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		70521E503A845ADBB7541D3CCE402203 /* Support Files */ = {
@@ -270,6 +268,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CA7D35A87B0A8E48D42EF753C3BD9BA4 /* FATextField */ = {
+			isa = PBXGroup;
+			children = (
+				2E079511C3DC0CF291FF1D832D1F7863 /* Classes */,
+			);
+			path = FATextField;
+			sourceTree = "<group>";
+		};
 		CBD79C5F18B5811522C0A967212EE4DB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +296,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		04C3B76AAA9821316F8CB23B96212206 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC986A2B84C81C6E2497FFF18E673C /* FATextField-umbrella.h in Headers */,
+				C6F8FF2AEA0F218D354CD2F6B006DCA9 /* FATextField.h in Headers */,
+				0DE0DE211D884BAE004576D2 /* podImage.h in Headers */,
+				9A337704B3931C522DE15C844AB48D1E /* FATextFieldWithMovableKeyboard.h in Headers */,
+				4669A94A626CA7AB6A952DC14DEB820B /* UIFloatLabelTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30EB403DF5DF3395F76FE9E3EFD8AEEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,17 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAED4DF4427BF1B611510B8BDE37F2E8 /* Pods-FATextField_Example-FATextField_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76150C13A728B7210E0E08C365C4383F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C222ADC2FF126E846A7AE347263B431 /* FATextField-umbrella.h in Headers */,
-				429F719773C99A750A5F48256A627F09 /* FATextField.h in Headers */,
-				D613D4ACED814331C988CAB9D875F9BA /* FATextFieldWithMovableKeyboard.h in Headers */,
-				4C5B6BEA39CAB973D04DBBF5D1B898D1 /* UIFloatLabelTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,13 +345,13 @@
 			productReference = 7239D4717D6F9F4D163B723F4625FFB7 /* Pods_FATextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		886065A2473EFFACB54F363356F47BCE /* FATextField-FATextField */ = {
+		7C12996A5ACF77DBF921EB684BD7249E /* FATextField-FATextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AA8C2481BD37A5B20E9D5DE63386C81 /* Build configuration list for PBXNativeTarget "FATextField-FATextField" */;
+			buildConfigurationList = 2FABDFC3C668E4810DBF82E3B2AEE242 /* Build configuration list for PBXNativeTarget "FATextField-FATextField" */;
 			buildPhases = (
-				75F2B0BEFFC321D57AFE67591EAC2EFD /* Sources */,
-				E2DA50EDDD1488D03BD13B1EB3D1E857 /* Frameworks */,
-				8FBF326C4B89EC1C84F69DB604318A01 /* Resources */,
+				B6B2209F9D8F8C8146A5E7BC7BB85EB6 /* Sources */,
+				ADFDC0926ECF244811BBA0F5D4E8D1FB /* Frameworks */,
+				C8198D33D5F8C41D5AECD36BAFFF7AC8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -373,19 +380,19 @@
 			productReference = 62195101ADB0188A4380B30828408ACC /* Pods_FATextField_Example_FATextField_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9C200F56E20571F58F4B6D98E3DBE88 /* FATextField */ = {
+		E56D95CA8C9E9D296F78B13861C50BF4 /* FATextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE2E3CA2F2DB6AA52A822EC401B7C64C /* Build configuration list for PBXNativeTarget "FATextField" */;
+			buildConfigurationList = 2CBBA06C1B722C303AEF7794BEF77117 /* Build configuration list for PBXNativeTarget "FATextField" */;
 			buildPhases = (
-				B2CBDAB4AF64CEA20BE8B9A58763838E /* Sources */,
-				86789C52A61886DE6B10EC476D310C3D /* Frameworks */,
-				B8111D997DF6F6D9F7DDE5BD740D87F2 /* Resources */,
-				76150C13A728B7210E0E08C365C4383F /* Headers */,
+				76201B155BFA49170E42BC3190D48D44 /* Sources */,
+				426D4A68C68873A790A594F4618EAF12 /* Frameworks */,
+				4E9408AE94B52F20A51B7E01622EC55E /* Resources */,
+				04C3B76AAA9821316F8CB23B96212206 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2572868A2DE51FEBD46FCE77E8A194B1 /* PBXTargetDependency */,
+				FECC254359DA0C2632636394E166101A /* PBXTargetDependency */,
 			);
 			name = FATextField;
 			productName = FATextField;
@@ -413,8 +420,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9C200F56E20571F58F4B6D98E3DBE88 /* FATextField */,
-				886065A2473EFFACB54F363356F47BCE /* FATextField-FATextField */,
+				E56D95CA8C9E9D296F78B13861C50BF4 /* FATextField */,
+				7C12996A5ACF77DBF921EB684BD7249E /* FATextField-FATextField */,
 				0950FE9D275CAAC0CB59593A9DF8ECFA /* Pods-FATextField_Example */,
 				D95E2DF38091232D5F8B4B68933E90A6 /* Pods-FATextField_Example-FATextField_Tests */,
 			);
@@ -422,29 +429,33 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FBF326C4B89EC1C84F69DB604318A01 /* Resources */ = {
+		4E9408AE94B52F20A51B7E01622EC55E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B27D9B5A0D22A63BE31F85079D5427 /* FAAssests.xcassets in Resources */,
+				A2FEB0451AAE0016202E7A94191C6749 /* FATextField.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8111D997DF6F6D9F7DDE5BD740D87F2 /* Resources */ = {
+		C8198D33D5F8C41D5AECD36BAFFF7AC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EDB3697908BF37C9E91463CA14EE2E /* FATextField.bundle in Resources */,
+				D652F7B653A6D9BB4B98C71BEE39B2C2 /* FAAssests.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75F2B0BEFFC321D57AFE67591EAC2EFD /* Sources */ = {
+		76201B155BFA49170E42BC3190D48D44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F024A7A685664CBCCC2CD5A4AC680DE1 /* FATextField-dummy.m in Sources */,
+				10651469691320508B0BEF317FEAC356 /* FATextFieldWithMovableKeyboard.m in Sources */,
+				0DE0DE221D884BAE004576D2 /* podImage.m in Sources */,
+				9BBA85A32E322A73C100B6341D852502 /* UIFloatLabelTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,21 +467,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2CBDAB4AF64CEA20BE8B9A58763838E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FF7CBA91752AAF2F4C400CB88D4E32C /* FATextField-dummy.m in Sources */,
-				FCF04EA10C3C80AC146356BD8EB2B6AF /* FATextFieldWithMovableKeyboard.m in Sources */,
-				30B174942B25B833483B52E05A2639B1 /* UIFloatLabelTextField.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B34568CCA1E29448C6B543F30C1A66B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9818AF10EF889261C39561B81670328 /* Pods-FATextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B2209F9D8F8C8146A5E7BC7BB85EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,20 +488,20 @@
 		0E5946246CB80D0384B2B3B5A59040FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FATextField;
-			target = F9C200F56E20571F58F4B6D98E3DBE88 /* FATextField */;
+			target = E56D95CA8C9E9D296F78B13861C50BF4 /* FATextField */;
 			targetProxy = FD825759EEA0C22608EFC58126A96C2B /* PBXContainerItemProxy */;
-		};
-		2572868A2DE51FEBD46FCE77E8A194B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FATextField-FATextField";
-			target = 886065A2473EFFACB54F363356F47BCE /* FATextField-FATextField */;
-			targetProxy = EEE7D6A5BECC913F62A1DA256E17BEC3 /* PBXContainerItemProxy */;
 		};
 		9769E227772CB3CF1395DDB00C6C157E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FATextField;
-			target = F9C200F56E20571F58F4B6D98E3DBE88 /* FATextField */;
+			target = E56D95CA8C9E9D296F78B13861C50BF4 /* FATextField */;
 			targetProxy = 20FFC07CCA06393DCE798884A904766E /* PBXContainerItemProxy */;
+		};
+		FECC254359DA0C2632636394E166101A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FATextField-FATextField";
+			target = 7C12996A5ACF77DBF921EB684BD7249E /* FATextField-FATextField */;
+			targetProxy = C0CE1070660349E12D16E25C47648A0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -569,6 +577,35 @@
 			};
 			name = Debug;
 		};
+		31207EBB90B2E5AE4CF7768ABECB927F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FATextField/FATextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FATextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FATextField/FATextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FATextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4C74817F3ABC0B52EF5304B836E578B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 212792DCBBA1DE2523318E94B4B405D4 /* Pods-FATextField_Example.debug.xcconfig */;
@@ -602,24 +639,7 @@
 			};
 			name = Debug;
 		};
-		5AEFB0387F69E8E02187F58519AC56ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FATextField";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FATextField/ResourceBundle-FATextField-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FATextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		60E348082470331CFCC7F8F4F18B4D0D /* Debug */ = {
+		4E0823D190022D6F4EAAE23105AEEA04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */;
 			buildSettings = {
@@ -648,36 +668,24 @@
 			};
 			name = Debug;
 		};
-		89038A912C28664F8363F635AA0A1F00 /* Release */ = {
+		621254612A1AAF6E4EFCC41D43E85D82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FATextField";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FATextField/FATextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FATextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/FATextField/ResourceBundle-FATextField-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FATextField/FATextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FATextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		B584CE4512179EC8C43ECC67400F2DFA /* Debug */ = {
+		B048A72CD8E87C83AACB11DF0E2E44E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B56A230ACDB07FEAFFC8075923F1A764 /* FATextField.xcconfig */;
 			buildSettings = {
@@ -805,11 +813,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AA8C2481BD37A5B20E9D5DE63386C81 /* Build configuration list for PBXNativeTarget "FATextField-FATextField" */ = {
+		2CBBA06C1B722C303AEF7794BEF77117 /* Build configuration list for PBXNativeTarget "FATextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B584CE4512179EC8C43ECC67400F2DFA /* Debug */,
-				5AEFB0387F69E8E02187F58519AC56ED /* Release */,
+				4E0823D190022D6F4EAAE23105AEEA04 /* Debug */,
+				31207EBB90B2E5AE4CF7768ABECB927F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -819,6 +827,15 @@
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FABDFC3C668E4810DBF82E3B2AEE242 /* Build configuration list for PBXNativeTarget "FATextField-FATextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B048A72CD8E87C83AACB11DF0E2E44E2 /* Debug */,
+				621254612A1AAF6E4EFCC41D43E85D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -837,15 +854,6 @@
 			buildConfigurations = (
 				4C74817F3ABC0B52EF5304B836E578B9 /* Debug */,
 				D7BA66B3AE0B761C5B171467B1B7DDCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE2E3CA2F2DB6AA52A822EC401B7C64C /* Build configuration list for PBXNativeTarget "FATextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60E348082470331CFCC7F8F4F18B4D0D /* Debug */,
-				89038A912C28664F8363F635AA0A1F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
