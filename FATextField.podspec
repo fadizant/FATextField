@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FATextField'
-  s.version          = '0.1.3'
-  s.summary          = 'add styles in FATextField.'
+  s.version          = '0.1.4'
+  s.summary          = 'fix get keyboard height in iOS11. send Notification for hide keyboard action. fix stuck view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 #s.description      = <<-DESC TODO: Add long description of the pod here. DESC
 
   s.homepage         = 'https://github.com/fadizant/FATextField'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'http://www.m5zn.com/newuploads/2017/09/21/gif//10eefedfc32ba63.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fadizant' => 'fadizant@hotmail.com' }
   s.source           = { :git => 'https://github.com/fadizant/FATextField.git', :tag => s.version.to_s }

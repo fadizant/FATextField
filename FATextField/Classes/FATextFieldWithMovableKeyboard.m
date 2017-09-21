@@ -70,7 +70,8 @@
         self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.attributedPlaceholder.string attributes:@{NSForegroundColorAttributeName: _placeholderColor}];
         
         self.delegate = self;
-        self.initFrame = CGRectZero;
+        //keep initframe to know location to move back to 
+//        self.initFrame = CGRectZero;
         
         
         //add toolBar
@@ -113,7 +114,7 @@
 //Handle keyboard
 - (void)keyboardWasShownHide:(NSNotification *)notification {
     // Get the size of the keyboard.
-    CGSize keyboardSize = [[[notification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    CGSize keyboardSize = [[[notification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
 
     UIView *parant = self.superview;
     CGRect parantFrame = parant.frame;
@@ -286,12 +287,22 @@ frame.size.height +=  keyboardSize.height;
 
 -(void)hideKeyboard {
     [self.superview endEditing:YES];
+    
+    //to handle hide keyboard if needed
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:UITextFieldTextDidEndEditingNotification
+     object:self];
 }
 
 //Hide in click Done
 -(void)yourTextViewDoneButtonPressed
 {
     [self resignFirstResponder];
+    
+    //to handle hide keyboard if needed
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:UITextFieldTextDidEndEditingNotification
+     object:self];
 }
 //Next text field
 -(void)yourTextViewNextButtonPressed
