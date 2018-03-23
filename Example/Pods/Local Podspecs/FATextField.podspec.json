@@ -1,8 +1,9 @@
 {
   "name": "FATextField",
-  "version": "0.1.0",
-  "summary": "init FATextField.",
+  "version": "0.1.4",
+  "summary": "fix get keyboard height in iOS11. send Notification for hide keyboard action. fix stuck view",
   "homepage": "https://github.com/fadizant/FATextField",
+  "screenshots": "http://www.m5zn.com/newuploads/2017/09/21/gif//10eefedfc32ba63.gif",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fadizant/FATextField.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"

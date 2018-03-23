@@ -46,6 +46,14 @@ IB_DESIGNABLE
  */
 @property (nonatomic) IBInspectable CGFloat borderCorner;
 /**
+ * X padding
+ */
+@property (nonatomic) IBInspectable CGFloat textStartPadding;
+/**
+ * Y padding
+ */
+@property (nonatomic) IBInspectable CGFloat textTopPadding;
+/**
  * Allow view to move with keyboard
  *
  * Defaults false

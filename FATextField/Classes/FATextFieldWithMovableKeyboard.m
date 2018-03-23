@@ -226,7 +226,16 @@ frame.size.height +=  keyboardSize.height;
     if (CGRectEqualToRect(self.initFrame, CGRectZero)) {
         self.initFrame = self.superview.frame;
     }
-    return bounds;
+    return CGRectInset(bounds,
+                       _textStartPadding ? _textStartPadding :bounds.origin.x,
+                       _textTopPadding ? _textTopPadding :bounds.origin.y);
+}
+
+// text position
+- (CGRect)editingRectForBounds:(CGRect)bounds {
+    return CGRectInset(bounds,
+                       _textStartPadding ? _textStartPadding :bounds.origin.x,
+                       _textTopPadding ? _textTopPadding :bounds.origin.y);
 }
 
 -(void)addToolBar

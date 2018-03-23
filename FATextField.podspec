@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FATextField'
-  s.version          = '0.1.4'
-  s.summary          = 'fix get keyboard height in iOS11. send Notification for hide keyboard action. fix stuck view'
+  s.version          = '0.1.5'
+  s.summary          = 'add Start and Top padding'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
